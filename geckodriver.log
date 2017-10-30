@@ -1,0 +1,67 @@
+1509180777700	geckodriver	INFO	Listening on 127.0.0.1:42399
+1509180778754	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.imGYTFt9QCTB
+1509180778756	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1509180778881	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41553
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 674: aUrl is undefined
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 674: aUrl is undefined
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 674: aUrl is undefined
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 674: aUrl is undefined
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 674: aUrl is undefined
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 674: aUrl is undefined
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 674: aUrl is undefined
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 674: aUrl is undefined
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 674: aUrl is undefined
+1509181451592	geckodriver	INFO	Listening on 127.0.0.1:50597
+1509181452699	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.OHeC272eIhH3
+1509181452700	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1509181452912	geckodriver::marionette	INFO	Connecting to Marionette on localhost:47211
+1509181454421	Marionette	INFO	Listening on port 47211
+1509181455103	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509181760241	geckodriver	INFO	Listening on 127.0.0.1:56094
+1509181761344	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.D7JmjRioV0GV
+1509181761345	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1509181761357	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34592
+1509181762535	Marionette	INFO	Listening on port 34592
+1509181762875	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 15474] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.4.0/firefox-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 15474] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.4.0/firefox-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+1509181802556	geckodriver	INFO	Listening on 127.0.0.1:46897
+1509181804108	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.YRD39XEOM4Iq
+1509181804123	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1509181804139	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33239
+1509181805864	Marionette	INFO	Listening on port 33239
+1509181806487	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 15769] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.4.0/firefox-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 15769] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.4.0/firefox-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+1509181865753	geckodriver	INFO	Listening on 127.0.0.1:42653
+1509181867035	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.fMWxzuMAff8B
+1509181867036	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1509181867052	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37903
+1509181868449	Marionette	INFO	Listening on port 37903
+1509181869081	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 16502] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.4.0/firefox-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 16502] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.4.0/firefox-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+1509181936980	geckodriver	INFO	Listening on 127.0.0.1:41163
+1509181938252	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.7xVKwHcoSofw
+1509181938254	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1509181938312	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58684
+1509181941549	Marionette	INFO	Listening on port 58684
+1509181941972	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+/usr/lib64/firefox/plugin-container: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+/usr/lib64/firefox/plugin-container: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
