@@ -65,3 +65,87 @@ firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
 /usr/lib64/firefox/plugin-container: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
 firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
 /usr/lib64/firefox/plugin-container: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+1509413282806	geckodriver	INFO	Listening on 127.0.0.1:60032
+1509413284072	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.igxjkY0kmkUA
+1509413284074	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1509413284233	geckodriver::marionette	INFO	Connecting to Marionette on localhost:48658
+1509413288546	Marionette	INFO	Listening on port 48658
+1509413290006	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509413355168	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1509413355189	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+/usr/lib64/firefox/plugin-container: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+1509430470833	geckodriver	INFO	Listening on 127.0.0.1:34426
+1509430472332	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.5O5vbe5ovMrR
+1509430472334	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1509430472526	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49449
+1509430474175	Marionette	INFO	Listening on port 49449
+1509430476039	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1509431725398	geckodriver	INFO	Listening on 127.0.0.1:53906
+1509431726544	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.NqcEeFauXoPa
+1509431726549	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1509431726684	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39673
+1509431728331	Marionette	INFO	Listening on port 39673
+1509431728980	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 6091] WARNING: pipe error (3): Connection reset by peer: file /builddir/build/BUILD/firefox-52.4.0/firefox-52.4.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 6091] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.4.0/firefox-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 6091] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.4.0/firefox-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+1509432179341	geckodriver	INFO	Listening on 127.0.0.1:34424
+1509432180417	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.Pf32WIiRxJCE
+1509432180423	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1509432180478	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51388
+1509432182733	Marionette	INFO	Listening on port 51388
+1509432183416	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7195] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.4.0/firefox-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 7195] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.4.0/firefox-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+1509432260830	geckodriver	INFO	Listening on 127.0.0.1:42309
+1509432261031	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.pHN8XvSJjPNf
+1509432261033	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1509432261043	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39175
+1509432262262	Marionette	INFO	Listening on port 39175
+1509432262647	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509432340516	geckodriver	INFO	Listening on 127.0.0.1:45375
+1509432341669	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.vFzuEECspKm5
+1509432341672	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1509432341681	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60710
+1509432343042	Marionette	INFO	Listening on port 60710
+1509432343453	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 8235] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.4.0/firefox-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 8235] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.4.0/firefox-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+1509432389272	geckodriver	INFO	Listening on 127.0.0.1:52034
+1509432390430	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.5TeJqRunQ17c
+1509432390431	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1509432390434	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37239
+1509432391695	Marionette	INFO	Listening on port 37239
+1509432392071	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+
+(firefox:5265): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+
+(firefox:5265): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+/usr/lib64/firefox/plugin-container: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+/usr/lib64/firefox/plugin-container: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+[Child 5331] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.4.0/firefox-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 5331] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.4.0/firefox-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152

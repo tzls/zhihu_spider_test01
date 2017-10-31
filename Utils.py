@@ -4,6 +4,7 @@ from Utils import *
 import requests
 import time
 import json
+import redis
 
 from selenium import webdriver
 class Utils():
@@ -93,5 +94,10 @@ class Utils():
         signin_button.click()
         time.sleep(2)
         return driver
+
+    def getRedis(self):
+        pool = redis.ConnectionPool(host='127.0.0.1',port=6379)
+        r = redis.Redis(connection_pool= pool)
+        return r
 
     

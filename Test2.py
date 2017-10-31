@@ -2,14 +2,14 @@ from bs4 import BeautifulSoup
 from Utils import *
 #
 #
-soup = BeautifulSoup(open('C:/Users/zhou/Desktop/index.html',encoding='utf-8'),'lxml')
-question_item = \
-soup.find_all("meta", attrs={"itemprop": "url", "content": re.compile(r'https://www.zhihu.com/question/(\d){8}$')})
-names=[]
-for question_item_name in question_item:
-    name= question_item_name.attrs["content"]
-    names.append(name)
-print("question_item_name......",name)
+# soup = BeautifulSoup(open('C:/Users/zhou/Desktop/index.html',encoding='utf-8'),'lxml')
+# question_item = \
+# soup.find_all("meta", attrs={"itemprop": "url", "content": re.compile(r'https://www.zhihu.com/question/(\d){8}$')})
+# names=[]
+# for question_item_name in question_item:
+#     name= question_item_name.attrs["content"]
+#     names.append(name)
+# print("question_item_name......",name)
 
 #
 # s=[["answer",196851952,"read"],["answer",145790972,"read"]]
@@ -27,4 +27,10 @@ print("question_item_name......",name)
 # }
 # response = session.post('https://www.zhihu.com/lastread/touch',data= files,headers=header)
 # print(response)
-
+utils = Utils()
+r= utils.getRedis()
+r.sadd("1",[])
+r.sadd("1",2,'了能',3,4)
+for x in r.smembers(1):
+    print(x.decode())
+#print(r.smembers(1).encode('utf8').decode())
