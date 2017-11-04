@@ -1,0 +1,3 @@
+# zhihu_spider_test01
+知乎爬虫
+在zhihu_spider_question中添加了BloomFilter算法，用于过滤掉已有的评论
