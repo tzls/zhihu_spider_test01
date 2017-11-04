@@ -4,6 +4,8 @@ import json
 import re
 import urllib.request
 from scrapy.selector import Selector
+#from pybloom import BloomFilter
+from BloomFilter import *
 class HtmlParser(object):
     def parse_content(self,response):
         #soup = BeautifulSoup(open(response, encoding='utf-8'), 'lxml')
@@ -131,7 +133,8 @@ class HtmlParser(object):
                 followee_maxPage = 3
         return followee_maxPage
 
-    def parse_question_response(self,response):
+    def parse_question_response(self,response,question_Id):
+        bf = BloomFilter()
         #问题题目
         soup = BeautifulSoup(response, 'lxml')
         question_title = soup.find("div",class_="QuestionPage").find("meta",attrs={"itemprop":"name"}).attrs["content"]
@@ -152,7 +155,14 @@ class HtmlParser(object):
                 comment['回答者'] = question_item_name
                 comment['回答'] = question_item_comment
                 comment['点赞数'] = question_item_vote
-                comments.append(comment)
+
+                if bf.isContains(question_Id,comment):
+                    print('存在该comment',comment)
+                    pass
+                else:
+                    print('新评论',comment)
+                    bf.insert(question_Id,comment)
+                    comments.append(comment)
         except:
             pass
         js = {"标题": question_title, "关键字": question_keywords, "回答数": question_answerCount, "问题说明": question_title_details,
